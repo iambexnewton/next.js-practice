@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav>
       <div className="logo">
         {/* <Image src="/logo.png" alt="" width={110} height={100} /> */}
-        {/* <h1>Ninja List</h1> */}
+      
       </div>
       <Link href="/">
         <a>Home</a>
@@ -14,8 +14,8 @@ const Navbar = () => {
       <Link href="/about">
         <a>About</a>
       </Link>
-      <Link href="ninjas">
-        <a>Ninja Listing</a>
+      <Link href="listing">
+        <a>Listing</a>
       </Link>
     </nav>
   );
