@@ -1,4 +1,7 @@
+import Link from "next/link";
+import styles from "../styles/Home.module.css"
 import Head from "next/head";
+import Form from "../comps/Form"
 
 const About = () => {
   return (
@@ -27,9 +30,19 @@ const About = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-      </div>
+
+              </div>
+
+              <section>
+                <Form />
+              </section>
+              <Link href="/listing">
+          <a className={styles.btn}>See Listing</a>
+        </Link>
     </>
   );
 };
 
 export default About;
+
+
