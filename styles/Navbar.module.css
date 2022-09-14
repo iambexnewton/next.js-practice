@@ -1,0 +1,37 @@
+
+.navbarWrapper {
+    margin: 10px auto 80px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #ddd;
+  }
+  .navbarWrapper {
+    padding: 40px;
+    background: #ffd400;
+  }
+  
+  .navbarArea a {
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+   
+  }
+  .navbarArea a:hover {
+    cursor: pointer;
+    color: white;
+    background: red;
+   
+  }
+  .navbarArea a:active {
+    color: white;
+    background: red;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+  }

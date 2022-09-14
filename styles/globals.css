@@ -11,37 +11,6 @@ a {
   text-decoration: none;
 }
 
-nav {
-  margin: 10px auto 80px;
-  padding: 10px 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  border-bottom: 1px solid #ddd;
-}
-nav {
-  padding: 40px;
-  background: #ffd400;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-}
-nav a:hover {
-  cursor: pointer;
-  color: white;
-  background: red;
- 
-}
-nav a:active {
-  color: white;
-  background: red;
-}
-
 .not-found {
   text-align: center;
 }

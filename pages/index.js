@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title> People ^ Home</title>
-        <meta name="keywords" content="ninjas" />
+        <title>Home</title>
+        <meta name="keywords" content="people" />
       </Head>
       <h1 className={styles.title}>Home page</h1>
 
