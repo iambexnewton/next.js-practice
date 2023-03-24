@@ -21,10 +21,9 @@ export default function Home() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-     
 
         <Link href="/listing">
-          <a className={styles.btn}>See Listing</a>
+          <a className={styles.btn}>See Listig</a>
         </Link>
       </div>
     </>
