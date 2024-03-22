@@ -1,0 +1,74 @@
+{
+  "userSets": [
+    {
+      "id": "1",
+      "name": "Death star trash compactor",
+      "score": 4,
+      "notes": "great",
+      "photo": "https://i.imgur.com/cQDNa9c.jpeg",
+      "group": "star-wars"
+    },
+    {
+      "id": "2",
+      "name": "Pirates of barracuda",
+      "scores": "three",
+      "notes": "lots of parts",
+      "photo": "https://www.proshop.dk/Images/300x251/2879848_204f489ecc37.png",
+      "group": "vehicals"
+    },
+    {
+      "id": "3",
+      "name": "Ghostbusters",
+      "score": 4,
+      "notes": "fun",
+      "photo": "https://i.imgur.com/JUSb0nu.jpeg",
+      "group": "vehicals"
+    },
+    {
+      "id": "4",
+      "name": "Yellow submarine",
+      "score": 4,
+      "notes": "fantastic",
+      "photo": "https://i.imgur.com/omhCG3s.jpeg",
+      "group": "vehicals"
+    }
+  ],
+  "groups": [
+    {
+      "id": "4",
+      "name": "star-wars"
+    },
+    {
+      "id": "5",
+      "name": "the simpsons"
+    },
+    {
+      "id": "6",
+      "name": "harry potter"
+    },
+    {
+      "id": "7",
+      "name": "friends"
+    },
+    {
+      "id": "8",
+      "name": "football"
+    },
+    {
+      "id": "9",
+      "name": "vehicals"
+    },
+    {
+      "id": "10",
+      "name": "duplo"
+    },
+    {
+      "id": "11",
+      "name": "video game"
+    },
+    {
+      "id": "12",
+      "name": "disney"
+    }
+  ]
+}

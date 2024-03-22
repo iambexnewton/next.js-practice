@@ -1,35 +1,37 @@
 export const getStaticPaths = async () => {
-  const response = await fetch("https://jsonplaceholder.typicode.com/users");
+  const response = await fetch("http://localhost:4000/userSets");
   const data = await response.json();
 
-  const paths = data.map((ninja) => {
+  const paths = data.map((set) => {
     return {
-      params: { id: ninja.id.toString() },
+      params: { id: `${set.id}` },
     };
   });
+
   return {
-    paths: paths,
+    paths,
     fallback: false,
   };
 };
 
 export const getStaticProps = async (context) => {
-  const id = context.params.id;
-  const response = fetch("https://jsonplaceholder.typicode.com/users/" + id);
+  const { params } = context;
+  const response = await fetch(`http://localhost:4000/userSets/${params.id}`);
   const data = await (await response).json();
 
   return {
-    props: { ninja: data },
+    props: { set: data },
   };
 };
 
-const Details = ({ ninja }) => {
+const Details = ({ set }) => {
   return (
     <div>
-      <h1>{ninja.name}</h1>
-      <p>{ninja.website}</p>
+      {console.log(set)}
+      <h1>{set.name}</h1>
+      {/* <p>{ninja.website}</p>
       <p>{ninja.email}</p>
-      <p>{ninja.address.city}</p>
+      <p>{ninja.address.city}</p> */}
     </div>
   );
 };

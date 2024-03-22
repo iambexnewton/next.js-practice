@@ -2,7 +2,7 @@ import styles from "../../styles/Ninjas.module.css";
 import Link from "next/link";
 
 export const getStaticProps = async () => {
-  const response = await fetch("https://jsonplaceholder.typicode.com/users");
+  const response = await fetch("http://localhost:4000/userSets");
   const data = await response.json();
 
   return {
@@ -11,6 +11,7 @@ export const getStaticProps = async () => {
 };
 
 const Listing = ({ people }) => {
+  console.log(people);
   return (
     <div>
       <h1>List</h1>
