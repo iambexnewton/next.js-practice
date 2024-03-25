@@ -1,18 +1,17 @@
 .title {
-  color: #333;
+  color: #373f41;
   padding-bottom: 20px;
   text-align: center;
 }
 .text {
-  color: #777;
+  color: #373f41;
 }
 .btn {
   display: block;
   width: 150px;
-  padding: 8px 0;
+  padding: 14px 18px;
   margin: 20px auto;
-  background: #4979ff;
-  border-radius: 4px;
-  color: white;
+  background: #fbc300;
+  color: #373f41;
   text-align: center;
 }

@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>Home</title>
-        <meta name="keywords" content="people" />
+        <meta name='keywords' content='people' />
       </Head>
       <h1 className={styles.title}>Home page</h1>
 
@@ -22,8 +22,8 @@ export default function Home() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
 
-        <Link href="/listing">
-          <a className={styles.btn}>See Listig</a>
+        <Link href='/colours'>
+          <a className={styles.btn}>Explore our colours</a>
         </Link>
       </div>
     </>

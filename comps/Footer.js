@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <p>Made in 2022</p>
+      <p>Made to practice with next js pages</p>
     </footer>
   );
 };

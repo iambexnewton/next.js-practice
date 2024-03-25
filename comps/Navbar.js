@@ -6,19 +6,20 @@ const Navbar = () => {
   return (
     <nav className={styles.navbarWrapper}>
       <div className={styles.logo}>
-      <Placeholder />
+        <Placeholder />
       </div>
-      <div className={styles.navbarArea}>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-      <Link href="listing">
-        <a>Listing</a>
-      </Link>
-      </div>
+
+      <section className={styles.navbarArea}>
+        <Link href='/'>
+          <a className={styles.navbarItem}>Home</a>
+        </Link>
+        <Link href='/about'>
+          <a className={styles.navbarItem}>About</a>
+        </Link>
+        <Link href='colours'>
+          <a className={styles.navbarItem}>Colours</a>
+        </Link>
+      </section>
     </nav>
   );
 };

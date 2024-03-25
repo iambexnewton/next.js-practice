@@ -1,4 +1,4 @@
-import styles from "../../styles/Ninjas.module.css";
+import styles from "../../styles/Paints.module.css";
 import Link from "next/link";
 import Splash from "/comps/Splash.js";
 
@@ -19,7 +19,7 @@ const Listing = ({ paint }) => {
 
       {paint.map((paint) => (
         <>
-          <Link href={"/listing/" + paint.id} key={paint.id}>
+          <Link href={"/colours/" + paint.id} key={paint.id}>
             <div className={styles.single}>
               <h3>{paint.name}</h3>
               <Splash fillColor={paint.color} />
