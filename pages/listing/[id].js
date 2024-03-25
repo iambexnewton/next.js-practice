@@ -1,3 +1,5 @@
+import Splash from "/comps/Splash.js";
+
 export const getStaticPaths = async () => {
   const response = await fetch("http://localhost:4000/userSets");
   const data = await response.json();
@@ -29,6 +31,7 @@ const Details = ({ set }) => {
     <div>
       {console.log(set)}
       <h1>{set.name}</h1>
+      <Splash fillColor={set.color} />
       {/* <p>{ninja.website}</p>
       <p>{ninja.email}</p>
       <p>{ninja.address.city}</p> */}

@@ -13,7 +13,7 @@
       "name": "Clay Like (ELLE Decoration by Crown, powder)",
       "scores": "three",
       "notes": "pretty",
-      "photo": "#d5d0c9",
+      "color": "#d5d0c9",
       "group": "Elle"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Delicate (ELLE Decoration by Crown, powder)",
       "score": 4,
       "notes": "fun",
-      "photo": "#e5e0da",
+      "color": "#e5e0da",
       "group": "Elle"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Hand Crafted (ELLE Decoration by Crown, crafted)",
       "score": 4,
       "notes": "fantastic",
-      "photo": "#d7cac5",
+      "color": "#d7cac5",
       "group": "Elle"
     }
   ],
