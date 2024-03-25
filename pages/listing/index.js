@@ -1,6 +1,6 @@
 import styles from "../../styles/Ninjas.module.css";
 import Link from "next/link";
-import Splash from "./comps/Splash.js";
+import Splash from "comps/Splash.js";
 
 export const getStaticProps = async () => {
   const response = await fetch("http://localhost:4000/userSets");

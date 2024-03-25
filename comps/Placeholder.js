@@ -8,7 +8,6 @@ const Placeholder = (props) => {
       alt="Picture of the author"
       width="120px"
       height="100px"
-    
     />
   )
 }
