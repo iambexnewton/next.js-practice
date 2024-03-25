@@ -1,27 +1,30 @@
 import styles from "../../styles/Ninjas.module.css";
 import Link from "next/link";
+import Splash from "./comps/Splash.js";
 
 export const getStaticProps = async () => {
   const response = await fetch("http://localhost:4000/userSets");
   const data = await response.json();
 
   return {
-    props: { people: data },
+    props: { paint: data },
   };
 };
 
-const Listing = ({ people }) => {
-  console.log(people);
+const Listing = ({ paint }) => {
+  console.log(paint);
   return (
     <div>
       <h1>List</h1>
-      {people.map((person) => (
-        <Link href={"/listing/" + person.id} key={person.id}>
+      <Splash />
+      {paint.map((paint) => (
+        <Link href={"/listing/" + paint.id} key={paint.id}>
           <a className={styles.single}>
-            <h3>{person.name}</h3>
+            <h3>{paint.name}</h3>
           </a>
         </Link>
       ))}
+      {/* <Image src={"public/splash.svg"} alt='splash' layout='fill'></Image> */}
     </div>
   );
 };

@@ -2,35 +2,35 @@
   "userSets": [
     {
       "id": "1",
-      "name": "Death star trash compactor",
+      "name": "Blended (ELLE Decoration by Crown, powder)",
       "score": 4,
       "notes": "great",
-      "photo": "https://i.imgur.com/cQDNa9c.jpeg",
-      "group": "star-wars"
+      "color": "#cbc1b6",
+      "group": "Elle"
     },
     {
       "id": "2",
-      "name": "Pirates of barracuda",
+      "name": "Clay Like (ELLE Decoration by Crown, powder)",
       "scores": "three",
-      "notes": "lots of parts",
-      "photo": "https://www.proshop.dk/Images/300x251/2879848_204f489ecc37.png",
-      "group": "vehicals"
+      "notes": "pretty",
+      "photo": "#d5d0c9",
+      "group": "Elle"
     },
     {
       "id": "3",
-      "name": "Ghostbusters",
+      "name": "Delicate (ELLE Decoration by Crown, powder)",
       "score": 4,
       "notes": "fun",
-      "photo": "https://i.imgur.com/JUSb0nu.jpeg",
-      "group": "vehicals"
+      "photo": "#e5e0da",
+      "group": "Elle"
     },
     {
       "id": "4",
-      "name": "Yellow submarine",
+      "name": "Hand Crafted (ELLE Decoration by Crown, crafted)",
       "score": 4,
       "notes": "fantastic",
-      "photo": "https://i.imgur.com/omhCG3s.jpeg",
-      "group": "vehicals"
+      "photo": "#d7cac5",
+      "group": "Elle"
     }
   ],
   "groups": [
